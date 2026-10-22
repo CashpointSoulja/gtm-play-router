@@ -3,7 +3,7 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_DEPLOYMENT_URL: process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : 'http://localhost:3000',
+      : 'https://gtm-play-router.ayomideahmedcp.workers.dev',
   },
 };
 export default nextConfig;
